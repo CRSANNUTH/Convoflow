@@ -20,7 +20,7 @@ A simple real-time chat application with user authentication and one-on-one mess
 
 ### Chat Interface
 ![Chat](screenshots/chat1.png)
-![Chat](screenshots/chat2.png)
+![Chat](screenshots/image.png)
 
 
 
