@@ -1,4 +1,4 @@
-# Chat App
+# ConvoFlow
 
 A simple real-time chat application with user authentication and one-on-one messaging.
 
@@ -13,13 +13,14 @@ A simple real-time chat application with user authentication and one-on-one mess
 ![Sign Up](screenshots/signup.png)
 
 ### Log In Page
-![Log In](screenshots/login.png)
+![Log In](screenshots/sigin.png)
 
 ### Home Page
 ![Home](screenshots/home.png)
 
 ### Chat Interface
-![Chat](screenshots/chat.png)
+![Chat](screenshots/chat1.png)
+![Chat](screenshots/chat2.png)
 
 
 
