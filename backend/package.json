@@ -1,0 +1,30 @@
+{
+	"name": "chatapp",
+	"version": "1.0.0",
+	"scripts": {
+		"start": "dotenv -e ../.env -- node server.js",
+		"dev": "dotenv -e ../.env -- nodemon server.js"
+	},
+	"type": "module",
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"description": "",
+	"dependencies": {
+		"bcryptjs": "^2.4.3",
+		"chatapp": "file:",
+		"cookie-parser": "^1.4.6",
+		"cors": "^2.8.5",
+		"dotenv": "^16.4.5",
+		"dotenv-expand": "^11.0.6",
+		"express": "^4.19.2",
+		"jsonwebtoken": "^9.0.2",
+		"mongoose": "^8.5.3",
+		"socket.io": "^4.7.5"
+	},
+	"devDependencies": {
+		"@types/jsonwebtoken": "^9.0.6",
+		"dotenv-cli": "^7.4.2",
+		"nodemon": "^3.1.4"
+	}
+}

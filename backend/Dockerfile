@@ -1,0 +1,19 @@
+FROM node:20
+
+WORKDIR /app
+
+COPY package*.json ./
+
+RUN npm install
+
+COPY . .
+
+ENV PORT=$PORT
+ENV NODE_ENV=$NODE_ENV
+ENV MONGODB_URI=$MONGODB_URI
+ENV JWT_SECRET=$JWT_SECRET
+ENV ORIGIN=$ORIGIN
+
+EXPOSE 5000
+
+CMD ["npm", "run", "dev"]
