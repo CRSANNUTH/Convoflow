@@ -13,7 +13,7 @@ A simple real-time chat application with user authentication and one-on-one mess
 ![Sign Up](screenshots/signup.png)
 
 ### Log In Page
-![Log In](screenshots/sigin.png)
+![Log In](screenshots/signin.png)
 
 ### Home Page
 ![Home](screenshots/home.png)
